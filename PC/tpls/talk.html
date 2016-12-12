@@ -1,0 +1,124 @@
+
+	<!-- 主体内容开始 -->
+	<section class="c-container margin-tb">
+		<div id="container1">
+			<!-- 图片列表开始 -->
+			<div id="list">
+				<img src="images/banner6.png" alt="">
+			</div>
+			<!-- 图片列表结束 -->
+		</div>
+		<!-- 宣传栏开始 -->
+		<div class="widget-hotsort">
+			<a href="javascript:;" class="hotsort-1">
+				<h2>我的故事</h2>
+				<span>在别人的故事里，我看到了自己</span>
+			</a>
+			<a href="javascript:;" class="hotsort-2">
+				<h2>求职助攻</h2>
+				<span>找工作的那些事</span>
+			</a>
+			<a href="javascript:;" class="hotsort-3">
+				<h2>刺猬夜谈</h2>
+				<span>来，咱们来聊五块钱的吧</span>
+			</a>
+			<a href="javascript:;" class="hotsort-4">
+				<h2>刺猬体验</h2>
+				<span>遇见另一种生活</span>
+			</a>
+		</div>
+		<!-- 宣传栏结束 -->
+		<!-- 左侧主内容区开始 -->
+		<div class="main left">
+			<div class="widget-article-list">
+				<div class="widget" ng-repeat="item in data">
+					<div class="box">
+						<a href="javascript:;" class="img left">
+							<img src="{{item.pic}}">
+						</a>
+						<div class="info">
+							<h2 class="title">
+								<a href="javascript:;">{{item.title}}</a>
+							</h2>
+							<div class="subinfo">
+								<span class="author left">
+									<img src="{{item.person_pic}}" alt="">
+									{{item.name}}
+								</span>
+								<span class="left time">{{item.time}}</span>
+							</div>
+							<p>{{item.s_title}}</p>
+							<div class="left">
+								<a href="javascript:;" class="icontext">
+									<i class="font icon-home2"></i>
+									<i class="txt">刺猬电台</i>
+								</a>
+							</div>
+							<div class="right status">
+								<span class="icontext">
+									<i class="font icon-eye"></i>
+									<i class="txt">20</i>
+								</span>
+								<span data-id="{{item.id}}" class="icontext in">
+									<i class="font icon-heart"></i>
+									<i class="txt">0</i>
+								</span>
+								<span class="icontext">
+									<i class="font icon-mail4"></i>
+									<i class="txt">0</i>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 左侧主内容区结束 -->
+		<!-- 右侧介绍栏开始 -->
+		<div class="sidebar right">
+			<div class="widget">
+				<div class="widget-search">
+					<div class="submit">
+						<a href="javascript:;" class="btn btn-cl1">
+							发布问答
+						</a>
+						<a href="javascript:;" class="btn btn-cl1">
+							发帖
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- 热门板块开始 -->
+			<div class="widget">
+				<div class="widget-title">
+					<h3 class="title">
+						热门板块
+					</h3>
+				</div>
+				<div class="widget-hotplate">
+					<a href="javascript:;">
+						<i class="font icon-books"></i>
+						<b>刺猬学院</b>
+						<span>学习是年轻人最好的投资</span>
+					</a>
+					<a href="javascript:;">
+						<i class="font icon-gift"></i>
+						<b>活动公告</b>
+						<span>好玩又有料，全程憋住尿</span>
+					</a>
+					<a href="javascript:;">
+						<i class="font icon-user-tie"></i>
+						<b>职场范儿</b>
+						<span>称霸职场的正确姿势</span>
+					</a>
+					<div class="twocode">
+						<img src="images/forum_2.png" alt="">
+						<span>社区触屏版</span>
+					</div>
+				</div>
+			</div>
+			<!-- 热门板块结束 -->
+		</div>
+		<!-- 右侧介绍栏结束 -->
+	</section>
+	<!-- 主体内容结束 -->

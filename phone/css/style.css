@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {	
+
+	font-size: 12px;
+	/* height: 100%;
+	width: 100%; */
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	/* height: 100%;
+	width: 100%; */
+}
+
+a,a:link,a:hover,a:visited,a:active {
+	text-decoration: none;
+}
+
+ul,li {
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+/*头部*/
+.head {
+	margin-bottom: 1rem;
+}
+.head .index-search {
+	width: 100%;
+	display: block;
+	position: absolute;
+	border: none;
+	z-index: 2;
+}
+
+.head .index-search span {
+	width: 90%;
+	background: rgba(255,255,255,0.7);
+	line-height: 4rem;
+	border-radius: 2rem;
+	text-indent: 3rem;
+	display: block;
+	margin: 1.5rem auto;
+	color: #666;
+}
+
+.head em {
+	background: url(../images/search.png) no-repeat center;
+	display: block;
+	width: 3.5rem;
+	height: 3.5em;
+	position: absolute;
+	z-index: 4;
+	background-size: 100%;
+	top: 20%;
+	right: 7%;
+}
+
+.slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.slider img {
+	width: 100%;
+}
+
+/*公司宣传*/ 
+.title {
+	margin-left: 1%;
+	margin-bottom: 1rem;
+	width:100%;
+	overflow: hidden;
+}
+
+.title a img {
+	width: 48%;
+	margin: 0 0.5%; 
+	border-radius: 0.5rem;
+	float: left;
+}
+
+.company {
+	overflow: hidden;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.company div {
+	float: left;
+	width: 25%;
+}
+
+.company img {
+	width: 80%;
+	height: 80%;
+	margin: 5% 10%;
+	border: 1px solid #eaeaea;
+	border-radius: 100%;
+}
+
+.company h2 {
+	font-size: 100%;
+	font-weight: 500;
+}
+
+.company span {
+	font-size: 100%;
+	color: #999;
+}
+
+.imp img {
+	width: 94%;
+	margin: 0 auto 0.5rem;	
+	border-radius: 0.5rem;
+}
+
+.adv {
+	width: 96%;
+	margin: 0 auto 0.5rem;
+	overflow:hidden; 
+}
+
+.adv a {
+	width: 100%;
+	margin: 1%;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	float: left;
+}
+
+.adv .m {
+	width: 63%;
+	height: 11rem;
+	position: relative;
+}
+
+.adv .s {
+	width: 33%;
+	height: 11rem;
+	position: relative;
+}
+
+.adv img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5rem;
+	-webkit-filter: brightness(65%);
+	z-index: -1;
+}
+
+.adv .word {
+	width: 90%;
+	height: 50%;
+	position: absolute;
+	top: 25%;
+	left: 5%;	
+	font-size: 1.5rem; 
+}
+
+.adv .word h1 {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+.adv .word h2 {
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+/*社区话题*/
+.comtop {
+	position: relative;
+	margin-top: 1rem;
+	border-top: 2px solid #f0f0f0;
+	border-bottom: 2px solid #f0f0f0;
+	overflow: hidden;
+} 
+
+.comtop div {
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.comtop div p {
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 2rem;
+	float: left;
+	color: #34b9be;
+}
+
+.comtop div span {
+	font-size: 1.6rem;
+	margin-left: 3%;
+	color: #34b9be;
+	font-weight: 600;
+}
+
+.comtop .nav {
+	width: 100%;
+	height: 6.5rem;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	margin-top: 1rem;
+}
+
+.comtop .nav .content {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+.comtop .nav .content a {
+	display: block;
+	float: left;
+	margin: 1rem 1%;
+	width: 18%;
+	height: 100%;	
+}
+
+.comtop .nav .content a i {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3rem;
+	color: #272636;
+}
+
+.comtop .nav .content a span {
+	display: block;
+	margin: 0.5rem auto;
+	font-size: 1rem;
+	text-align: center;
+	color: #272636;
+}
+
+/*我的故事*/
+.comtop .topics {
+	width: 94%;
+}
+
+.comtop .topics li {
+	width: 100%;
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.comtop .topics img {
+	width: 35%;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+}
+
+.comtop .topics li img {
+	float: left;
+}
+
+.comtop .topics h1 {
+	margin-bottom: 1rem;
+}
+
+.comtop .topics li h1 {
+	font-size: 1.3rem;
+	color: #666;
+	font-weight: 500;
+}
+
+.comtop .topics span {
+	font-size: 1rem;
+	color: #999;
+	position: absolute;
+	bottom: 0px;
+}
+
+/*更多话题*/
+.moreTopic {
+	display: inline-block;
+	width: 100%;
+	font-size: 1.3rem;
+	color: #999;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+/*实习职位*/
+.comtop div span:nth-of-type(2) {
+	font-size: 1rem;
+	color: #aeaeae;
+}
+
+.comtop .comtop_1{
+	margin: 1rem auto;
+}
+
+.comtop ul {
+	width: 94%;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	margin: 0 auto;
+}
+
+.comtop ul li {
+	width: 100%;
+	position: relative;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	overflow: hidden;
+}
+
+.comtop ul li img {
+	width: 20%;
+	height: 20%;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+	float: left;
+}
+
+.comtop ul li h1 {
+	font-size: 1.3rem;
+	color: #666;
+	font-weight: 500;
+	margin-top: 0.2rem
+}
+
+.comtop ul li h2 {
+	font-size: 1rem;
+	color: #999;
+	margin: 0.7rem 0;
+}
+
+.comtop ul li h3 {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #46c6d5;
+}
+
+.comtop ul li em {
+	font-style: normal;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #999;
+}
+
+.comtop ul li em i {
+	font-size: 1.2rem
+}
+
+.kb {
+	width: 100%;
+	height: 9rem;
+}
+
+/*底部*/
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	overflow: hidden;
+	border-top: 1px solid #eaeaea;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+	color: #999;
+	font-size: 1.3rem;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.footer a img {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.footer a span {
+	display: block;
+}

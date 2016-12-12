@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script type="text/javascript">
+		
+		// 根据请求报头信息，判断用户是否使用手机浏览器，自动跳转到移动站和pc站
+		var userAgent = navigator.userAgent.toLowerCase();
+
+		if(userAgent.match(/iphone/) != null || userAgent.match(/android/) != null || userAgent.match(/ipad/) != null) {
+			location.href = 'phone/index.html';
+		} else {
+			location.href = 'PC/index.html';
+		}
+
+	</script>
+</head>
+<body>
+</body>
+</html>
